@@ -383,6 +383,8 @@
 
   background: #0B0223;
   text-align: center;
+  padding: 50px 0px;
+  height: 500px;
  }
 
  .footer-title {
@@ -422,7 +424,7 @@
 }
 .footer-icon a {
 
-  margin: 20px 40px 20px 20px;
+  margin: 20px 30px 20px 20px;
 }
 
 .footer-des p{
@@ -435,13 +437,22 @@
   
 }
 
-.footer-des-2 p, footer p{
+.footer-des-2 p{
 
   color: rgba(255, 255, 255, 0.60);
   text-align: center;
   font-size: 16px; 
   font-weight: 500;
   margin-right: 60px;
+  
+
+}
+footer p{
+
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 16px; 
+  font-weight: 500;
   
 
 }
