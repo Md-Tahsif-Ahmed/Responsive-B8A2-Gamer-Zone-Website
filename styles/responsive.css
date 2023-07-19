@@ -1,0 +1,83 @@
+/* work on font from google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+
+/* Mobile Resposive  */
+
+@media screen and (max-width: 576px) {
+
+    .nav-container, .nav-items-container {
+
+         flex-direction: column;
+         
+      }
+
+      .nav-logo-container {
+        width: 100%;
+        
+      }
+
+      .nav-items-container {
+
+        width: 100%;
+
+
+      }
+
+      .nav-items-container a {
+
+        margin-top: 20px;
+
+      }
+
+
+   a .follow-icon {
+        width: 100%;
+        padding: 20px;
+    } 
+}
+
+/* For Tablet  */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    .nav-container, .nav-items-container {
+
+        flex-direction: column;
+        
+     }
+
+     .nav-logo-container {
+       width: 100%;
+       
+     }
+
+     .nav-items-container {
+
+       width: 100%;
+
+
+     }
+
+     .nav-items-container a {
+
+       margin-top: 20px;
+
+     }
+
+
+  a .follow-icon {
+       width: 100%;
+       padding: 20px;
+   } 
+
+
+} 
