@@ -382,7 +382,70 @@
  footer {
 
   background: #0B0223;
+  text-align: center;
  }
+
+ .footer-title {
+  color: #FFF;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+ }
+
+ .footer-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+ }
+
+.footer-container img {
+
+  width: 80px;
+  height: 30px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.footer-des, .footer-des-2, .footer-icon {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+
+}
+.footer-icon a {
+
+  margin: 20px 40px 20px 20px;
+}
+
+.footer-des p{
+
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 60px;
+  
+}
+
+.footer-des-2 p, footer p{
+
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 16px; 
+  font-weight: 500;
+  margin-right: 60px;
+  
+
+}
+
 
 
 
