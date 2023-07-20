@@ -47,17 +47,63 @@
 
     /* game type part  */
 
-    .g-type {
-      height: auto; /* Adjust the height for mobile */
-      padding: 30px; /* Adjust the padding for mobile */
-    }
+    .game {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+       
+    
+     }
+
+     
+ 
+
+    /* end game type part */
+
+
+
+   /* Footer Part Mobile device */
+
+   footer {
+
+    max-width: 100%;
+    /* padding-bottom: 70px; */
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+   }
+
+   .footer-des{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+
   
-    .g1 {
-      flex-basis: calc(33.33% - 40px); /* Three columns on mobile */
-      margin-bottom: 20px;
-    }
+  
   }
-}
+
+  .footer-des-2 {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+
+    .footer-des p, .footer-des-2 p  {
+
+     margin-right: 0px;
+     padding-top: 0%;
+
+      
+    }
+
+    /* end footer part  */
+
+  }
+
 
 /* For Tablet  */
 
@@ -103,6 +149,36 @@
     width: 50%;
    }
 
+
+
+
+
+   /* Footer Part Tablet device */
+
+   footer {
+
+    max-width: 100%;
+    padding-bottom: 70px;
+    padding-top: 10px;
+    
+   }
+
+   .footer-des{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 50px;
+    padding-right: 50px;
+  
+  }
+
+  .footer-des-2 {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+  
 
 
 
